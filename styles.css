@@ -1,0 +1,181 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Home Section */
+#home {
+  background-color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#home h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* About Us Section */
+#about {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#about h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Services Section */
+#services {
+  text-align: center;
+  padding: 100px 0;
+}
+
+#services h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.service img {
+  width: 250px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.service h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.service p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Contact Us Section */
+#contact {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#contact h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 300px;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  #home h1 {
+    font-size: 24px;
+  }
+
+  #home p {
+    font-size: 16px;
+  }
+
+  #about h2 {
+    font-size: 24px;
+  }
+
+  #about p {
+    font-size: 16px;
+  }
+
+  #services h2 {
+    font-size: 24px;
+  }
+
+  .service h3 {
+    font-size: 18px;
+  }
+
+  .service p {
+    font-size: 14px;
+  }
+
+  #contact h2 {
+    font-size: 24px;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+
+  
+  
+  
